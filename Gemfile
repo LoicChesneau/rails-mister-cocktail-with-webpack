@@ -6,13 +6,17 @@ git_source(:github) do |repo_name|
 end
 
 
-#Front-end
+# Front-end
 
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
 gem 'jquery-rails'
+
+# Security
+
+gem 'figaro'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
